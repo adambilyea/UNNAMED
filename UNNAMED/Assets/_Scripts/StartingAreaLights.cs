@@ -14,7 +14,7 @@ public class StartingAreaLights : MonoBehaviour
     public GameObject Light8;
     public GameObject Light9;
     public GameObject Light10;
-
+    public GameObject Light11;
     double lightCounter;
     bool lightBool = false;
     bool lightBool2 = false;    
@@ -98,6 +98,7 @@ public class StartingAreaLights : MonoBehaviour
         {
             Light9.SetActive(true); 
             Light10.SetActive(true); 
+            Light11.SetActive(true); 
             Debug.Log("Lights 5"); 
         }
 
