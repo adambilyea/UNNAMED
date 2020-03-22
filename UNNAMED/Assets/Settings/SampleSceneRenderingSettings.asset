@@ -16,7 +16,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.33
+    m_Value: 1.03
     min: 0
     max: 4
   stepCount:
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   maxShadowDistance:
     m_OverrideState: 1
-    m_Value: 150
+    m_Value: 235.49
     min: 0
   cascadeShadowSplitCount:
     m_OverrideState: 1
@@ -246,7 +246,7 @@ MonoBehaviour:
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 12
+    m_Value: 11.6
   multiplier:
     m_OverrideState: 0
     m_Value: 1
@@ -285,16 +285,16 @@ MonoBehaviour:
     max: 5
   skyTint:
     m_OverrideState: 0
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
   groundColor:
     m_OverrideState: 0
-    m_Value: {r: 0.369, g: 0.349, b: 0.341, a: 1}
+    m_Value: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
   enableSunDisk:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1

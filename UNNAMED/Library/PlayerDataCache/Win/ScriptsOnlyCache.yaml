@@ -16,6 +16,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Experimental.Rendering.HDPipeline.AmbientOcclusion
     - UnityEngine.Experimental.Rendering.HDPipeline.Bloom
     - UnityEngine.Experimental.Rendering.HDPipeline.ChromaticAberration
+    - UnityEngine.Experimental.Rendering.HDPipeline.DecalProjectorComponent
     - UnityEngine.Experimental.Rendering.HDPipeline.DiffusionProfileSettings
     - UnityEngine.Experimental.Rendering.HDPipeline.Exposure
     - UnityEngine.Experimental.Rendering.HDPipeline.HDAdditionalCameraData
@@ -65,7 +66,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -94,6 +94,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 29
+      Script: {instanceID: 0}
     - Class: 33
       Script: {instanceID: 0}
     - Class: 43
@@ -107,6 +109,101 @@ ScriptsOnlyBuild:
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9920}
+    - Class: 114
+      Script: {instanceID: 9926}
+    - Class: 114
+      Script: {instanceID: 10470}
+    - Class: 114
+      Script: {instanceID: 10720}
+    - Class: 114
+      Script: {instanceID: 10810}
+    - Class: 114
+      Script: {instanceID: 10952}
+    - Class: 114
+      Script: {instanceID: 11332}
+    - Class: 114
+      Script: {instanceID: 11668}
+    - Class: 114
+      Script: {instanceID: 11826}
+    - Class: 114
+      Script: {instanceID: 11916}
+    - Class: 114
+      Script: {instanceID: 11936}
+    - Class: 114
+      Script: {instanceID: 11982}
+    - Class: 114
+      Script: {instanceID: 12224}
+    - Class: 114
+      Script: {instanceID: 12270}
+    - Class: 114
+      Script: {instanceID: 12374}
+    - Class: 114
+      Script: {instanceID: 12504}
+    - Class: 114
+      Script: {instanceID: 12898}
+    - Class: 114
+      Script: {instanceID: 12944}
+    - Class: 114
+      Script: {instanceID: 13472}
+    - Class: 114
+      Script: {instanceID: 14292}
+    - Class: 114
+      Script: {instanceID: 14318}
+    - Class: 114
+      Script: {instanceID: 14354}
+    - Class: 114
+      Script: {instanceID: 14446}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 363
+      Script: {instanceID: 0}
+    Assets/Scenes/startingTown.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 29
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -141,13 +238,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10720}
     - Class: 114
+      Script: {instanceID: 10810}
+    - Class: 114
       Script: {instanceID: 10952}
     - Class: 114
       Script: {instanceID: 11084}
     - Class: 114
       Script: {instanceID: 11168}
-    - Class: 114
-      Script: {instanceID: 11332}
     - Class: 114
       Script: {instanceID: 11462}
     - Class: 114
@@ -161,86 +258,82 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11834}
     - Class: 114
-      Script: {instanceID: 11934}
+      Script: {instanceID: 11936}
     - Class: 114
-      Script: {instanceID: 11954}
+      Script: {instanceID: 11956}
     - Class: 114
-      Script: {instanceID: 11980}
+      Script: {instanceID: 11982}
     - Class: 114
-      Script: {instanceID: 12220}
+      Script: {instanceID: 12224}
     - Class: 114
-      Script: {instanceID: 12266}
+      Script: {instanceID: 12270}
     - Class: 114
-      Script: {instanceID: 12302}
+      Script: {instanceID: 12306}
     - Class: 114
-      Script: {instanceID: 12330}
+      Script: {instanceID: 12334}
     - Class: 114
-      Script: {instanceID: 12370}
+      Script: {instanceID: 12374}
     - Class: 114
-      Script: {instanceID: 12500}
+      Script: {instanceID: 12504}
     - Class: 114
-      Script: {instanceID: 12508}
+      Script: {instanceID: 12512}
     - Class: 114
-      Script: {instanceID: 12706}
+      Script: {instanceID: 12710}
     - Class: 114
-      Script: {instanceID: 12798}
+      Script: {instanceID: 12802}
     - Class: 114
-      Script: {instanceID: 12820}
+      Script: {instanceID: 12824}
     - Class: 114
-      Script: {instanceID: 12894}
+      Script: {instanceID: 12898}
     - Class: 114
-      Script: {instanceID: 12940}
+      Script: {instanceID: 12944}
     - Class: 114
-      Script: {instanceID: 12978}
+      Script: {instanceID: 12982}
     - Class: 114
-      Script: {instanceID: 13020}
+      Script: {instanceID: 13024}
     - Class: 114
-      Script: {instanceID: 13030}
+      Script: {instanceID: 13034}
     - Class: 114
-      Script: {instanceID: 13388}
+      Script: {instanceID: 13392}
     - Class: 114
-      Script: {instanceID: 13404}
+      Script: {instanceID: 13408}
     - Class: 114
-      Script: {instanceID: 13468}
+      Script: {instanceID: 13472}
     - Class: 114
-      Script: {instanceID: 13470}
+      Script: {instanceID: 13474}
     - Class: 114
-      Script: {instanceID: 13786}
+      Script: {instanceID: 13790}
     - Class: 114
-      Script: {instanceID: 13984}
+      Script: {instanceID: 13988}
     - Class: 114
-      Script: {instanceID: 14044}
+      Script: {instanceID: 14048}
     - Class: 114
-      Script: {instanceID: 14288}
+      Script: {instanceID: 14292}
     - Class: 114
-      Script: {instanceID: 14304}
+      Script: {instanceID: 14308}
     - Class: 114
-      Script: {instanceID: 14306}
+      Script: {instanceID: 14310}
     - Class: 114
-      Script: {instanceID: 14314}
+      Script: {instanceID: 14318}
     - Class: 114
-      Script: {instanceID: 14350}
+      Script: {instanceID: 14354}
     - Class: 114
-      Script: {instanceID: 14374}
+      Script: {instanceID: 14378}
     - Class: 114
-      Script: {instanceID: 14382}
+      Script: {instanceID: 14386}
     - Class: 114
-      Script: {instanceID: 14442}
+      Script: {instanceID: 14538}
     - Class: 114
-      Script: {instanceID: 14534}
+      Script: {instanceID: 14544}
     - Class: 114
-      Script: {instanceID: 14540}
-    - Class: 114
-      Script: {instanceID: 28988}
-    - Class: 114
-      Script: {instanceID: 31628}
+      Script: {instanceID: 24034}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
-    - Class: 134
-      Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -253,6 +346,8 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 258
+      Script: {instanceID: 0}
+    - Class: 363
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -617,7 +712,7 @@ ScriptsOnlyBuild:
     className: VFXMultiplePositionParameterBinder
   - hash:
       serializedVersion: 2
-      Hash: 778fdb2dd09d30771a1140cb6bc1a685
+      Hash: 1c96c96393a6758e7fc53ae02ad7b648
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StartingAreaLights
@@ -747,6 +842,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8b70377f50ca346c2220db2b3ed1a706
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartingElevator
   - hash:
       serializedVersion: 2
       Hash: c3d8a84cc8c1b6c77d2468e56e822159
@@ -1337,7 +1438,7 @@ ScriptsOnlyBuild:
     className: MicroShadowing
   - hash:
       serializedVersion: 2
-      Hash: 196b3f7e030a53078183541aedf051ce
+      Hash: 85b8afad4caf161b5e612c416ea81e1a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StartingDoorTrigger
@@ -1377,13 +1478,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 8b70377f50ca346c2220db2b3ed1a706
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: StartingElevator
   platform: 5
   scenePathNames:
+  - Assets/Scenes/startingTown.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/AdamBilyea/Documents/Unity Stuff/UNNAMED/Builds/UNNAMED.exe
+  playerPath: C:/Users/AdamBilyea/Documents/Unity Stuff/PersonalProject/UNNAMED/Builds/UNNAMED.exe

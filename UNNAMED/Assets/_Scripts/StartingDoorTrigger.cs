@@ -9,6 +9,8 @@ public class StartingDoorTrigger : MonoBehaviour
     public GameObject door2;
     public GameObject hitch;
     public GameObject hitch2;
+    public GameObject light1;
+    public GameObject light2;
     double counter = 0;
 
     // Update is called once per frame
@@ -33,6 +35,8 @@ public class StartingDoorTrigger : MonoBehaviour
          if(other.gameObject.name == "Player")
          {
             doorOpen = true;
+            light1.SetActive(true);
+            light2.SetActive(false);
             Debug.Log("DoorOpen");
          }
     }
